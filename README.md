@@ -1,19 +1,7 @@
-下面给出一份简洁、清晰、可直接作为仓库根目录 `README.md` 的「自述文件」模板。  
-已按 GitHub 惯例排版，方便后续直接渲染。  
-按需增删章节即可。
-
----
-
 # AI 提示词增强器 · 飞书知识库版（Tampermonkey 用户脚本）
 
 > 一条脚本，让 **DeepSeek / Kimi / 豆包** 瞬间拥有「方法论外挂」：  
 > 输入任意需求 → 自动检索飞书多维表格 → AI 生成高质量提示词 → 一键复制并回填到输入框。
-
-| 主页面 | 配置面板 | 一键增强 |
-| --- | --- | --- |
-| ![main](docs/demo-main.png) | ![config](docs/demo-config.png) | ![enhance](docs/demo-enhance.gif) |
-
----
 
 ## 🌟 核心能力
 
@@ -34,11 +22,7 @@
    [Tampermonkey 官网](https://www.tampermonkey.net/)（Chrome / Edge / Firefox 均支持）
 
 2. **安装脚本**  
-   ① 打开 [Releases](https://github.com/YOUR_NAME/AI-Prompt-Enhancer-Feishu/releases) → 下载最新 `ai-prompt-enhancer.user.js` → 管理器会提示安装。  
-   ② 或直接 `Raw` 安装（需科学上网）：  
-   ```
-   https://github.com/YOUR_NAME/AI-Prompt-Enhancer-Feishu/raw/main/ai-prompt-enhancer.user.js
-   ```
+   
 
 3. **配置飞书**  
    - 多维表格建表（字段：标题 / 内容 / 关键词 / 助手）  
@@ -79,21 +63,6 @@ npm install
 
 # 代码风格检查
 npm run lint
-```
-
----
-
-## 📁 目录结构
-
-```
-.
-├── ai-prompt-enhancer.user.js   // 主脚本（直接安装）
-├── docs/
-│   ├── demo-main.png
-│   ├── demo-config.png
-│   └── demo-enhance.gif
-├── README.md
-└── LICENSE
 ```
 
 ---
